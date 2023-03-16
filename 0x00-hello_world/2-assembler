@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -fPIC $CFILE
+gcc -c -s $CFILE
