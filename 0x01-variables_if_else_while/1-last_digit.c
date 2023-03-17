@@ -11,17 +11,15 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n, lastDigit, digit;
-	lastDigit = n % 10;
-        digit    = (int)log10(n);
+	int n;
 
-        srand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
-	else if (n == 0)
-		printf("Last digit of %d and is 0\n", n);
-	else
-		printf("Last digit of %d and is greater than 6 and not 0\n", n);
+	if (n % 10 > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n);
+	else if (n % 10 ==0)
+		printf("Last digit of %d is %d and is 0\n", n);
+	else (n % 10 < 6)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n);
 	return (0);
 }
