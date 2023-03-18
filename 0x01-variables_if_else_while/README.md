@@ -1,1 +1,1 @@
-9. Patience, persistence and perspiration
+11. The success combination in business
