@@ -13,8 +13,8 @@ int main(void)
 	char n, C;
 
 	for (n = 0 ; n < 10 ; n++)
-                putchar('0' + n);
-        for (C= 'a'; C <= 'f'; C++)
+		putchar('0' + n);
+	for (C = 'a'; C <= 'f'; C++)
 		putchar(C);
 	putchar('\n');
 
