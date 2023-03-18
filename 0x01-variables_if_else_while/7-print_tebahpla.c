@@ -11,7 +11,7 @@
 int main(void)
 {
 	char C;
-
+	
 	for (C = 122; C >= 97; C--)
 		putchar(C);
 		putchar('\n');
