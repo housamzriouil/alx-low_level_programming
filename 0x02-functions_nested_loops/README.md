@@ -1,1 +1,1 @@
-6. There is no such thing
+7. There are only 3 colors, 10 digits, and 7 notes
