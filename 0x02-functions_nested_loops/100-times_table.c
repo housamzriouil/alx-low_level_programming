@@ -8,7 +8,7 @@ void print_times_table(int n)
 {
 	int rone, cone, d;
 
-	if (n <= 0 && n >= 15)
+	if (n >= 0 && n <= 15)
 	{
 		for (rone = 0; rone <= 9; rone++)
 		{
