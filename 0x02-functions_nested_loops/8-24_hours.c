@@ -1,7 +1,10 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints lowercase alphabet_x10
- * Return: 0
+ * jack_bauer - function that prints every minute of the day, 24 hour clock
+ * j = hour, i = minutes
+ * / 10 allows second digit to rotate
+ * for loop breaks before passing 24:00
+ * Return: 24 hour clock line by line
  */
 void jack_bauer(void);
 {
