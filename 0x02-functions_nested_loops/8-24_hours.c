@@ -15,7 +15,7 @@ void jack_bauer(void)
 	{
 		for (j = 0 ; j < 24 ; j++)
 		{
-			_putchar((i + '0'):( j + '0'));
+			_putchar((j + '0'):( i + '0'));
 		}
 	_putchar('\n');
 	}
