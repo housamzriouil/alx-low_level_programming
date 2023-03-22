@@ -6,35 +6,44 @@
  */
 void print_times_table(int n)
 {
-	int rone, cone, d;
+	int row;
+	int column;
+	int product;
 
 	if (n >= 0 && n <= 15)
 	{
-		for (rone = 0; rone <= 9; rone++)
+		for (row = 0; row <= n; row++)
 		{
-		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
-		for (cone = 1; cone <= 9; cone++)
-		{
-			d = (rone * cone);
-			if ((d / 10) > 0)
+			for (column = 0; column <= n; column++)
 			{
-				_putchar((d / 10) + '0');
+				product = (row * column);
+				if (column == 0)
+					_putchar('0' + product);
+				else
+				{
+					_putchar(',');
+					_putchar(' ');
+					if (product <= 9)
+					{
+						_putchar(' ');
+						_putchar(' ');
+						_putchar('0' + product);
+					}
+					else if (product > 9 && product < 100)
+					{
+						_putchar(' ');
+						_putchar('0' + (product / 10));
+						_putchar('0' + (product % 10));
+					}
+					else if (product >= 100)
+					{
+						_putchar('0' + (product / 100));
+						_putchar('0' + ((product / 10) % 10));
+						_putchar('0' + (product % 10));
+					}
+				}
 			}
-			else
-			{
-				_putchar(' ');
-			}
-			_putchar((d % 10) + '0');
-
-			if (cone < 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
-		}
-		_putchar('\n');
+			_putchar('\n');
 		}
 	}
 }
