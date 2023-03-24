@@ -1,1 +1,1 @@
-10. Triangles
+9. Fizz-Buzz
