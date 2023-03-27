@@ -1,1 +1,1 @@
-4. I can only go one way
+5. A good engineer thinks in reverse
