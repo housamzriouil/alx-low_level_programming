@@ -1,1 +1,1 @@
-5. A good engineer thinks in reverse
+6. Half the lies they tell
