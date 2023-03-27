@@ -1,1 +1,1 @@
-3. I do not fear computers
+4. I can only go one way
