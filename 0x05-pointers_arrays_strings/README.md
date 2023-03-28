@@ -1,1 +1,1 @@
-7. Winning is only half of it
+8. Arrays are not pointers
