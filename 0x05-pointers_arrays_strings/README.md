@@ -1,1 +1,1 @@
-6. Half the lies they tell
+7. Winning is only half of it
