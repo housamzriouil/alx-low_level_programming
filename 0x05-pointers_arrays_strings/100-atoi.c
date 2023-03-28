@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strlen - returns the length of a string
@@ -31,7 +32,6 @@ int _atoi(char *s)
 	{
 		if (str[i] < 48 || str[i] > 57)
 		{
-			printf("\nCan't Convert Into Integer");
 			return 0;
 		}
 		else
