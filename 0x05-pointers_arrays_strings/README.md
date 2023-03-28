@@ -1,1 +1,1 @@
-9. strcpy
+10. Great leaders
