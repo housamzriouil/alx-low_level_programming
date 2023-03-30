@@ -1,1 +1,1 @@
-4. I am a kind of paranoid in reverse
+5. Always look up
