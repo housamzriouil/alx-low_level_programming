@@ -4,7 +4,6 @@
 /**
  * reverse_array - reverse array elements
  * @a: array
- * @rarr: auxiliary array
  * @n: number of elements in array
  */
 void reverse_array(int *a, int n)
