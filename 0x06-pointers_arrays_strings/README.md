@@ -1,1 +1,1 @@
-3. strcmp
+4. I am a kind of paranoid in reverse
