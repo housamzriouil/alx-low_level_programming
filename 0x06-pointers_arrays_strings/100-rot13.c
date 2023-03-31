@@ -26,10 +26,10 @@ char *rot13(char *s)
 	{
 		for (i = 0; a[i] != '\0'; i++)
 		{
-			if (s[j] == a[i])
+			if ((s[j] == a[i]) && (s[j] != b[i]))
 				s[j] = b[i];
-		} else 
-			s[j] = a[i];
+		} else
+		       s[j] = a[i];
 	}
 
 	return (s);
