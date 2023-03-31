@@ -1,1 +1,1 @@
-11. It is the addition
+12. Noise is a buffer
