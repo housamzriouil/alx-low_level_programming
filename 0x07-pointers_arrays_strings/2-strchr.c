@@ -15,8 +15,8 @@ char *_strchr(char *s, char c)
 	for (i = 0 ; i < c ; i++)
 	{
 		if (s[i] == c)
-			return (s);
-		else 
+			return (s - s[i]);
+		else
 			-putchar('NULL');
 	}
 }
