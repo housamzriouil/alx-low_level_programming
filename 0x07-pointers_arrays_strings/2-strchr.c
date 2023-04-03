@@ -17,6 +17,6 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 			return (s - s[i]);
 		else
-			_putchar('NULL');
+			return (NULL);
 	}
 }
