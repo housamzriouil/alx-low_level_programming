@@ -1,1 +1,1 @@
-6. Chess is mental torture
+7. The line of life 
