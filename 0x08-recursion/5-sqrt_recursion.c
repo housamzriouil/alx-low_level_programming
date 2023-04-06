@@ -3,6 +3,7 @@
 /**
  * _sqrt_recursion - natural square root of a number
  * @n: the number
+ * @root: root
  * Return: square root
  */
 int find_root(int n, int root)
@@ -18,7 +19,7 @@ int find_root(int n, int root)
 
 /**
  * _sqrt_recursion - natural square root of a number
- * @n: the number 
+ * @n: the number
  * Return: square root
  */
 
