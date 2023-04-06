@@ -1,1 +1,1 @@
-3. You mustn't be afraid
+4. Once an idea has taken hold
