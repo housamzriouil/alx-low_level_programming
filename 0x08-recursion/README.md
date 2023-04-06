@@ -1,1 +1,1 @@
-2. Dreams feel real
+3. You mustn't be afraid
