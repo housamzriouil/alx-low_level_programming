@@ -4,6 +4,7 @@
  * _pow_recursion - print the power of a given number
  * @x: number
  * @y: power
+ * Return: the power of x
  */
 int _pow_recursion(int x, int y)
 {
@@ -12,6 +13,5 @@ int _pow_recursion(int x, int y)
 		return (-1);
 	} else if (y == 0)
 		return (1);
-	
 	return (x * _pow_recursion(x, y - 1));
 }
