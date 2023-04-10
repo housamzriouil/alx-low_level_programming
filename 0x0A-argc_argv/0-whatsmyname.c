@@ -9,7 +9,8 @@
  */
 int main(int atgc, char *atgv[])
 {
-	printf("%s\n", *argv);
+	if (argc > 0)
+		printf("%s\n", argv[0]);
 
 	return (0);
 }
