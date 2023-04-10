@@ -8,6 +8,6 @@
  */
 int main(int atgc, char *atgv[])
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", *argv);
 	return (0);
 }
