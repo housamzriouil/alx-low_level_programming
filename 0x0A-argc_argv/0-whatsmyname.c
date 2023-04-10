@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - print the name of the program
@@ -9,5 +10,6 @@
 int main(int atgc, char *atgv[])
 {
 	printf("%s\n", *argv);
+
 	return (0);
 }
