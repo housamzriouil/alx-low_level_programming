@@ -7,7 +7,7 @@
  * @argv: array of arguments
  * Return: Always 0 (Success)
  */
-int main(int atgc __attribute__((unused)), char *atgv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
 		printf("%s\n", argv[0]);
