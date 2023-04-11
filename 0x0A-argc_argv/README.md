@@ -1,1 +1,1 @@
-1. Silence is argument
+2. The best argument
