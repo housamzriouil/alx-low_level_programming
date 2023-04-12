@@ -30,6 +30,6 @@ char *_strdup(char *str)
 		*(copy_str + i) = *(str + i);
 		i++;
 	}
-	
+
 	return (copy_str);
 }
