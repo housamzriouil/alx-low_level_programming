@@ -1,1 +1,1 @@
-1. The woman
+2. He who is not courageous
