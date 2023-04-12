@@ -31,5 +31,5 @@ char *_strdup(char *str)
 		i++;
 	}
 	
-	free (copy_str);
+	return (copy_str);
 }
