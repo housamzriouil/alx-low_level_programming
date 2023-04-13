@@ -9,19 +9,14 @@
 
 void *malloc_checked(unsigned int b)
 {
-	int* ptr;
-	int n, i;
+	void *ptr;
 
-	ptr = (int*)malloc(n * sizeof(ptr));
+	ptr = malloc(b);
+
 	if (ptr == NULL)
 	{
 		exit(98);
-	} else 
-	{
-		for (i = 0; i < n; i++)
-		{
-			ptr[i] = i + 1;
-		}
 	}
+
 	return (ptr);
 }
