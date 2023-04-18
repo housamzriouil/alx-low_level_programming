@@ -1,1 +1,1 @@
-4. A door is what a dog
+5. How many legs does a dog have
