@@ -1,1 +1,1 @@
-1. A dog is the only thing
+2. A dog will teach you unconditional love
