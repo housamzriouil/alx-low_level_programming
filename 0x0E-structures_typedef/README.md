@@ -1,1 +1,1 @@
-2. A dog will teach you unconditional love
+4. A door is what a dog
