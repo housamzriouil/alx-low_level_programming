@@ -1,1 +1,1 @@
-0. Beauty is variable
+1. To be is to be
