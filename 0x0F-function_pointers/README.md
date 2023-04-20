@@ -1,1 +1,1 @@
-1. If you spend too much
+2. To hell with circumstances
